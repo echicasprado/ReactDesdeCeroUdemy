@@ -4,25 +4,14 @@ import "./counter.css";
 
 const Counter = () =>{
     const [count, setCount] = useState(0);
-    const [message, setMessage] = useState();
-
-    /** 
-     * setTimeout(() => {
-     * setCount(count+1);
-     * }, 1000);
-     */
 
     const handleAdd = ()=>{
         setCount(count + 1);
-        setMessage('')
     };
 
     const handleSubtract = ()=>{
         if(count > 0){
             setCount(count - 1);
-           setMessage('')
-        }else{
-            setMessage('No puede ser menor de cero')
         }
     };
 
@@ -30,6 +19,7 @@ const Counter = () =>{
         setCount(0);
     };
 
+    const message = count === 0?'El contador no puede ser menor que 0':'';
 
     return (
         <>
