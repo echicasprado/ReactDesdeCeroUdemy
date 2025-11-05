@@ -38,7 +38,8 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.2.0"],\
           ["react-dom", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:19.2.0"],\
           ["vite", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:7.1.12"],\
-          ["vite-plugin-pwa", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:1.1.0"]\
+          ["vite-plugin-pwa", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:1.1.0"],\
+          ["workbox-window", "npm:7.3.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5798,7 +5799,8 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.2.0"],\
           ["react-dom", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:19.2.0"],\
           ["vite", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:7.1.12"],\
-          ["vite-plugin-pwa", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:1.1.0"]\
+          ["vite-plugin-pwa", "virtual:b1964740c811cc517faba5f8f87f858213fa4e944bcf96cf0f684ddd43f567ec0a8376e71c7496ba5936cb89cdfcdc6c0d6d7c239506d9ffaf216fc1d40ea426#npm:1.1.0"],\
+          ["workbox-window", "npm:7.3.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -6814,7 +6816,8 @@ const RAW_RUNTIME_STATE =
           "@types/workbox-build",\
           "@types/workbox-window",\
           "@vite-pwa/assets-generator",\
-          "vite"\
+          "vite",\
+          "workbox-window"\
         ],\
         "linkType": "HARD"\
       }]\
