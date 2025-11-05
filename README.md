@@ -22,3 +22,6 @@ yarn add -D vite-plugin-pwa
 # Generador y editor de iconos
 [maskable](https://maskable.app/editor)
 [pwabuilder](https://www.pwabuilder.com/imageGenerator)
+
+# Utilizar workbox
+yarn add workbox-window
