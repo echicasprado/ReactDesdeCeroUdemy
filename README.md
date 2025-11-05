@@ -18,3 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # PWA
 yarn add -D vite-plugin-pwa
+
+# Generador y editor de iconos
+[maskable](https://maskable.app/editor)
+[pwabuilder](https://www.pwabuilder.com/imageGenerator)
